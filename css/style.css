@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+footer{
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+    height: 50px;
+    background-color: #343A40 !important;
+    align-items: center;
+}
+.heading{
+    font-size: 50px;
+    color: rgb(38, 13, 179);
+    margin-top: 50px;
+    /* margin-left: -55px; */
+    font-weight: 900;
+}
+.shortintro{
+    color: rgb(38, 13, 179);
+    /* margin-left: -55px; */
+    font-weight: bold;
+    margin-top: 50px;
+}
+.aboutbtn{
+    color: aliceblue;
+    font-weight: bold;
+    /* margin-left: -55px; */
+    border-radius: 15px;
+    padding: 5px 25px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 1024px) {
+    .heading{
+        color: rgb(38, 13, 179);
+        margin-top: 50px;
+        margin-left:5px;
+        font-weight: 900;
+    }
+    .shortintro{
+        color: rgb(38, 13, 179);
+        margin-left: 5px;
+        font-weight: bold;
+        /* margin-top: 50px; */
+    }
+    .aboutbtn{
+        color: aliceblue;
+        font-weight: bold;
+        margin-left: 5px;
+        border-radius: 15px;
+        padding: 5px 25px;
+        margin-top: 15px;
+    }
+    .introimg{
+    
+        height: 50vh ;
+    }
+    
+}
+
+.introsection{
+min-height: 100%;
+min-width: 100%;
+}
+.aboutbank{
+    min-height: 100%;
+    min-width: 100%;
+}
+.aboutimg{
+    
+    height: 500px;
+}
+.aboutus{
+    font-weight: bold;
+    margin-top: 100px;
+    color: rgb(38, 13, 179);
+   
+}
+.servicesimg{
+    height: 350px;
+}
+.services{
+    color: rgb(38, 13, 179);
+    font-weight: bold;
+    min-height: 100%;
+    min-width: 100%;
+}
+.btn-warning{
+    background-color: rgb(247, 105, 23);
+}

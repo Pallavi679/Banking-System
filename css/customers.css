@@ -1,0 +1,13 @@
+.customers{
+    margin-top: 50px;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    height: 90vh;
+}
+.transferuser{
+  height: 87vh;
+}
+h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: rgb(38, 13, 179);
+}
